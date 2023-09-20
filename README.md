@@ -5,3 +5,4 @@ If the storage is not connected as required the script will confirm the storage 
 
 Script is looking for the file ".attached" that's in the Samba folder that we are testing, if the file is there the script will close and if not it will try and connect as required.
 
+This only works at the moment if your mount command is stored in "/etc/rc.local" as the script will try to re-run this file if the storage is not connected!
